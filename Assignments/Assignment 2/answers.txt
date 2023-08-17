@@ -1,0 +1,14 @@
+getInput() function has constant time complexity because everything is ruuning once.
+
+getInputFile() function has time complexity O(n) because for loop runs n times which is equal to the input size. 
+
+BuildAVLTree() has time complexity (nlogn) because for loop runs n times and in the for loop it insert the value in tree which take logn time complexity for n elements.
+
+insertNodeAVL() has time complexity O(logn) because it insert the node in a tree by comparing  with the other nodes, so everytime traverse to the left or right node to insert the value in perfect location and after that it get the height of the tree to make it avl tree.
+
+printAVL() tree have O(n) time complexity because we traverse to the every node in the tree and print the tree in inorder and preorder.
+O(n) + O(n) = O(n)
+
+DeleteNodeAVL() have time complexity O(nlogn) because it first it search for node to delete by comparing with other nodes and then delete it.
+
+DeleteAVLTree() have O(n) time complexity because we traverse to the every node in a tree and delete it. 

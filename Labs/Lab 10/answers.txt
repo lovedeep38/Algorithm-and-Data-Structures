@@ -1,0 +1,8 @@
+b.
+Space complexity of reverse kruskal function is O(|E| + |V|) because the parent array takes O(|V|) space complexity where V is the number of nodes and spanningTree array takes O(|E|). So, if E is greater, complexity is O(|E|) and otherwise its O(|V|)
+Time complexity is O(E^2 + |E| + |V|) where V is the number of nodes and E is the number of edges.
+
+c.
+Time complexity for kruskal algorithm is O(E logV) or O(E logE) or Prims algorithm is O(V^2). Here,the time complexity of reverse kruskal algorithm is less than kruskal and prims algorithm. 
+
+Prims algorithm is implements an array to get the weight and list to implements the graph. Kruskal algorithm calculate the minimum spanning tree by getting sorted edges. Reverse kruskal algorithm first remove the edges which forms the cycle and then it creates the minimum spanning tree.
